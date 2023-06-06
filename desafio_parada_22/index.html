@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <script src="js/validacao.js" defer></script>
+    <title>Formulário de Validação</title>
+    </head>
+    <body>
+
+    <div class="container">
+        <section class="header">
+        <h2>Cadastra a sua conta</h2>
+        </section>
+
+        <form id="form" class="form">
+        <div class="form-content">
+            <label for="username">Nome do usuário</label>
+            <input type="text" id="username" placeholder="Digite o nome do usuario..."/>
+            <a>Aqui vai a mensagem de erro....</a>
+        </div>
+
+        <div class="form-content">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite o seu email..."/>
+            <a>Aqui vai a mensagem de erro....</a>
+        </div>
+
+        <div class="form-content">
+            <label for="job">Qual vaga você quer concorrer?</label>
+            <select id="job">
+                <option value="">Alfaiate</option>
+                <option value="">Açougueiro</option>
+                <option value="">Advogado</option>
+                <option value="">Arquiteto</option>
+                <option value="">Artesão</option>
+                <option value="">Babá</option>
+                <option value="">Balconista</option>
+                <option value="">Barman</option>
+                <option value="">Carpinteiro</option>
+                <option value="">Cinegrafista</option>
+                <option value="">Camareiro</option>
+                <option value="">Decorador</option>
+                <option value="">Empilhadeirista</option>
+                <option value="">Geólogo</option>
+                <option value="">Zelador</option>
+            </select>
+        </div>
+
+        <div class="form-content">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha..."/>
+            <a>Aqui vai a mensagem de erro....</a>
+        </div>
+
+        <div class="form-content">
+            <label for="password-confirmation">Confirmação de senha</label>
+            <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente..."/>
+            <a>Aqui vai a mensagem de erro....</a>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+        </form>
+
+        <div class="img_job">
+            <img src="img/img_job.png">
+        </div>
+
+    </div>
+    </body>
+</html>
